@@ -8,7 +8,7 @@ import FreeCADGui
 import FreeCAD
 class MyList(list):
 	'''
-	data structure used to simplify Matrix manipulation. All build-in functions
+	A customized data structure that is used to simplify Matrix manipulation.
 	
 	'''
 	def __init__(self,*args):
